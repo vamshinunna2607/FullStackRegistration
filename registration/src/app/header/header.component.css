@@ -1,0 +1,16 @@
+#Softworld{
+display: inline;
+color: DodgerBlue;
+}
+#Technolohgies{
+    display: inline;
+    color: grey;
+    }
+hr{
+    border-color: DodgerBlue;
+    border-width: 3%;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
