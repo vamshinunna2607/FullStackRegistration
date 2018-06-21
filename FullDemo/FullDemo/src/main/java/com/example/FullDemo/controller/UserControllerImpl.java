@@ -35,6 +35,7 @@ public class UserControllerImpl  {
 	@GetMapping(value="/{email}")
 	@CrossOrigin(origins = "http://localhost:4200")
 	public Optional<User> getUser(@PathVariable String email) {
+		System.out.println("hello");
 		return userServiceImpl.getUser(email); 
 	
 	}
